@@ -1,0 +1,21 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "description": "Assignment Amar Chandwani",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Amar Chandwani",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-paginate": "^1.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "mogoose": "0.0.1-security",
+    "mongoose": "^6.0.8"
+  }
+}
