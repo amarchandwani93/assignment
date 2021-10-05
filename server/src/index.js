@@ -87,7 +87,7 @@ app.get('/users/:emailId?/:apiKey?', async (req, res, next) => {
 });
 
 // Handle POST Call
-app.post('/users', (req, res) => {
+app.post('/users', async (req, res) => {
     let newUser = new User({
         email: req.body.emailId,
         password: req.body.password,
